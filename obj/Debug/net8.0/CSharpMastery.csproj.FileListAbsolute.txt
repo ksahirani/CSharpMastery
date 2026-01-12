@@ -12,3 +12,4 @@
 /home/kenonsahirani/Desktop/CSharpMastery/obj/Debug/net8.0/CSharpMastery.pdb
 /home/kenonsahirani/Desktop/CSharpMastery/obj/Debug/net8.0/CSharpMastery.genruntimeconfig.cache
 /home/kenonsahirani/Desktop/CSharpMastery/obj/Debug/net8.0/ref/CSharpMastery.dll
+/home/kenonsahirani/Desktop/CSharpMastery/obj/Debug/net8.0/CSharpMastery.sourcelink.json

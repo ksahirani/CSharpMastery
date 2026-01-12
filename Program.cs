@@ -20,9 +20,29 @@ Console.Write("How many years of coding experience do you have? ");
 var input = Console.ReadLine();
 var years = int.Parse(input!);
 
+Console.Write("What is your favorite programming language?");
+var inputLanguage  = Console.ReadLine();
+
 Console.WriteLine();
 Console.WriteLine($"Nice to meet you, {nameInput}!");
 Console.WriteLine($"Wow, {years} years of experience!");
+Console.WriteLine($"");
+
+switch (inputLanguage)
+{
+    case ("Java"):
+        Console.WriteLine("Nice! C# will feel very familiar");
+        break;
+    case ("Python"):
+        Console.WriteLine("Great! C# is more structure but powerful");
+        break;
+    case ("JavaScript"):
+        Console.WriteLine("Cool! You'll love how similar C# and Typescript are.");
+        break;
+    default:
+        Console.WriteLine("Awesome! Let's learn C# together.");
+        break;
+}
 
 switch (years)
 {
@@ -31,6 +51,9 @@ switch (years)
         break;
     case < 5:
         Console.WriteLine("You're becoming a solid developer!");
+        break;
+    case < 10:
+        Console.WriteLine("You're becoming grandmaster developer!");
         break;
     default:
         Console.WriteLine("You're experienced! Consider mentoring others.");
