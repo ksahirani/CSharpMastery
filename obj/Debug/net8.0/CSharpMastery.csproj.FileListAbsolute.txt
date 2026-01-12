@@ -1,0 +1,14 @@
+/home/kenonsahirani/Desktop/CSharpMastery/bin/Debug/net8.0/CSharpMastery
+/home/kenonsahirani/Desktop/CSharpMastery/bin/Debug/net8.0/CSharpMastery.deps.json
+/home/kenonsahirani/Desktop/CSharpMastery/bin/Debug/net8.0/CSharpMastery.runtimeconfig.json
+/home/kenonsahirani/Desktop/CSharpMastery/bin/Debug/net8.0/CSharpMastery.dll
+/home/kenonsahirani/Desktop/CSharpMastery/bin/Debug/net8.0/CSharpMastery.pdb
+/home/kenonsahirani/Desktop/CSharpMastery/obj/Debug/net8.0/CSharpMastery.GeneratedMSBuildEditorConfig.editorconfig
+/home/kenonsahirani/Desktop/CSharpMastery/obj/Debug/net8.0/CSharpMastery.AssemblyInfoInputs.cache
+/home/kenonsahirani/Desktop/CSharpMastery/obj/Debug/net8.0/CSharpMastery.AssemblyInfo.cs
+/home/kenonsahirani/Desktop/CSharpMastery/obj/Debug/net8.0/CSharpMastery.csproj.CoreCompileInputs.cache
+/home/kenonsahirani/Desktop/CSharpMastery/obj/Debug/net8.0/CSharpMastery.dll
+/home/kenonsahirani/Desktop/CSharpMastery/obj/Debug/net8.0/refint/CSharpMastery.dll
+/home/kenonsahirani/Desktop/CSharpMastery/obj/Debug/net8.0/CSharpMastery.pdb
+/home/kenonsahirani/Desktop/CSharpMastery/obj/Debug/net8.0/CSharpMastery.genruntimeconfig.cache
+/home/kenonsahirani/Desktop/CSharpMastery/obj/Debug/net8.0/ref/CSharpMastery.dll
