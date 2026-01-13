@@ -3,12 +3,12 @@ namespace CSharpMastery;
 public class Person(string firstName, string lastName, int age)
 {
     //Properties (C# way - no more getters/setters!)
-    private string FirstName { get; set; } = firstName;
-    private string LastName { get; set; } = lastName;
-    private int Age { get; set; } = age;
+    public string FirstName { get; set; } = firstName;
+    public string LastName { get; set; } = lastName;
+    public int Age { get; set; } = age;
 
     //Read-only property (computed)
-    private string FullName => $"{FirstName} {LastName}";
+    public string FullName => $"{FirstName} {LastName}";
     
     //Empty Constructor
     public Person() : this("", "", 0)

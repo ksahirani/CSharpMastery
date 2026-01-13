@@ -1,61 +1,35 @@
-﻿// MY first C# program
-Console.WriteLine("Hello!");
-Console.WriteLine("Welcome to C# learning!");
+﻿using CSharpMastery;
 
-//Let's try some variables
-const string name = "Kenon";
-const int yearsExperience = 2;
-const string currentStack = "Java Spring Boot";
-
-Console.WriteLine($"My name is {name}!");
-Console.WriteLine($"I have {yearsExperience} years of experience!");
-Console.WriteLine($"I currently work with {currentStack}!");
-Console.WriteLine($"Now I'm learning C#");
-
-// Getting user input
-Console.Write("What is your name? ");
-var nameInput = Console.ReadLine();
-
-Console.Write("How many years of coding experience do you have? ");
-var input = Console.ReadLine();
-var years = int.Parse(input!);
-
-Console.Write("What is your favorite programming language?");
-var inputLanguage  = Console.ReadLine();
-
+Console.WriteLine("===== Lesson 2: Classes ===");
 Console.WriteLine();
-Console.WriteLine($"Nice to meet you, {nameInput}!");
-Console.WriteLine($"Wow, {years} years of experience!");
-Console.WriteLine($"");
 
-switch (inputLanguage)
-{
-    case ("Java"):
-        Console.WriteLine("Nice! C# will feel very familiar");
-        break;
-    case ("Python"):
-        Console.WriteLine("Great! C# is more structure but powerful");
-        break;
-    case ("JavaScript"):
-        Console.WriteLine("Cool! You'll love how similar C# and Typescript are.");
-        break;
-    default:
-        Console.WriteLine("Awesome! Let's learn C# together.");
-        break;
-}
+//Creating objects - multiple ways!
 
-switch (years)
+// 1. Using constructor
+var person1 = new Person("Kenon", "Sahirani", 32);
+person1.Introduce();
+
+//2 . Using object initializer(C# feature - very useful!)
+var person2 = new Person
 {
-    case < 3:
-        Console.WriteLine("You're still early in your journey — keep learning!");
-        break;
-    case < 5:
-        Console.WriteLine("You're becoming a solid developer!");
-        break;
-    case < 10:
-        Console.WriteLine("You're becoming grandmaster developer!");
-        break;
-    default:
-        Console.WriteLine("You're experienced! Consider mentoring others.");
-        break;
-}
+    FirstName = "Kenon",
+    LastName = "Sahirani",
+    Age = 30
+};
+person2.Introduce();
+
+//3. Using empty constructor then setting properties
+var person3 = new Person();
+person3.FirstName = "Kenon";
+person3.LastName = "Sahirani";
+person3.Age = 28;
+person3.Introduce();
+
+//Accessing properties (no getFirstName()  needed!)
+Console.WriteLine();
+Console.WriteLine($"Person 1's full name: {person1.FullName}");
+Console.WriteLine($"Person 1's age: {person2.Age}");
+//To String
+Console.WriteLine();
+Console.WriteLine(person1.ToString());
+Console.WriteLine(person2);
