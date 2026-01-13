@@ -26,4 +26,12 @@ public class Person(string firstName, string lastName, int age)
     {
         return $"Person: {FullName}, Age: {Age}";
     }
+
+    public string Email { get; set; } = "";
+
+    public void HaveBirthday()
+    {
+        Age++;
+        Console.WriteLine($"Happy Birthday {FirstName}! You are now {Age} years old.");
+    }
 }

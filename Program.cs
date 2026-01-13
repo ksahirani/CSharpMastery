@@ -33,3 +33,12 @@ Console.WriteLine($"Person 1's age: {person2.Age}");
 Console.WriteLine();
 Console.WriteLine(person1.ToString());
 Console.WriteLine(person2);
+
+// Test Email amd HaveBirthday
+Console.WriteLine();
+Console.WriteLine("=== Testing Challenges ===");
+person1.Email = "kenonsahirani07@gmail.com";
+Console.WriteLine($"{person1.FirstName}'s email: {person1.Email}");
+
+person1.HaveBirthday();
+person1.HaveBirthday();
